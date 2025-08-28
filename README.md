@@ -17,7 +17,7 @@ I am an active member of **USPMAG — Laboratory of Paleomagnetism (IAG-USP)**, 
 ## Past Projects
 
 - Application of **Random Forest** to delimit mafic and ultramafic bodies in the internal zone of the Brasília Belt;  
-- Research and collaboration at LGSR (UFG) and LabPaleoEvo (UFG) in geophysics, remote sensing, paleontology, and evolution.  
+- Research and collaboration at LGSR (UFG) and LabPaleoEvo (UFG).
 
 ## Interests
 

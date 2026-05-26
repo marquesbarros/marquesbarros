@@ -1,6 +1,6 @@
 # Hi there! 👋🏽 — I'm Lucas
 
-IT Technician (IFGoiano) | Geologist (UFG) | M.Sc. Candidate in Geophysics (IAG-USP)
+IT Technician (IFGoiano) | Geologist (UFG) | PhD. Candidate in Geophysics (IAG-USP)
 
 Member of [USPMAG](https://paleomagnetismo.iag.usp.br/)
 

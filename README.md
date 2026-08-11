@@ -1,26 +1,79 @@
-# Hi there! 👋🏽 — I'm Lucas
+# Hi there! 👋🏽 I'm Lucas Marques Barros
 
-IT Technician (IFGoiano) | Geologist (UFG) | PhD. Candidate in Geophysics (IAG-USP)
+**Geologist | PhD Candidate in Geophysics at IAG-USP | Rock Magnetism & Paleomagnetism | Scientific Computing & Geospatial Data**
 
-Member of [USPMAG](https://paleomagnetismo.iag.usp.br/)
+Member of [USPMAG — Laboratory of Paleomagnetism, University of São Paulo](https://paleomagnetismo.iag.usp.br/)
 
 ## About Me
 
-I am an IT Technician from the Federal Institute of Science and Technology of Goiás (IFGoiano) and a Geologist graduated from the Federal University of Goiás (UFG). Currently, I am a Master's candidate in Geophysics at the Institute of Astronomy, Geophysics and Atmospheric Sciences of the University of São Paulo (IAG-USP).  
+I am a **Geologist and Geophysics PhD candidate at the University of São Paulo (IAG-USP)**, working at the intersection of **Earth sciences, magnetism, and computational methods**.
 
-I am an active member of **USPMAG — Laboratory of Paleomagnetism (IAG-USP)**, and I have previously collaborated with the **LGSR — Laboratory of Geophysics and Remote Sensing (UFG)** and the **LabPaleoEvo — Laboratory of Paleontology and Evolution (UFG)**.
+My research focuses on understanding how rocks and minerals acquire, preserve, and record magnetic information, with particular interest in **rock magnetism, paleomagnetism, paleointensity, and magnetic signals preserved in ferromagnetic inclusions within silicate crystals**.
 
-## Current Project
+My background also spans **data engineering, machine learning, geospatial analysis, and scientific programming**, which I use to develop quantitative and reproducible approaches to geoscientific problems.
 
-- **Magnetic stability of inclusions in silicate monocrystals**: Investigating paleomagnetic signals preserved in silicate inclusions to better understand magnetic stability and its implications in geophysics.
+I am particularly interested in connecting **fundamental rock-magnetic processes with modern computational and imaging techniques**.
 
-## Past Projects
+## 🔬 Research
 
-- Application of **Random Forest** to delimit mafic and ultramafic bodies in the internal zone of the Brasília Belt;  
-- Research and collaboration at LGSR (UFG) and LabPaleoEvo (UFG).
+At **USPMAG (IAG-USP)**, my current research investigates the magnetic stability of ferromagnetic inclusions hosted in silicate single crystals and their potential as reliable recorders of the Earth's ancient magnetic field.
 
-## Interests
+My work involves topics and methods such as:
 
-- **Geophysics**: Paleomagnetism, rock magnetism, and applied geophysics;  
-- **Python Programming**: Data analysis, modeling, and scientific visualization;  
-- **Open Science**: Reproducible research and open-source scientific tools.  
+- **Rock magnetism and paleomagnetism**
+- **Paleointensity**
+- Magnetic characterization of minerals and inclusions
+- **Magnetic microscopy**
+- Quantitative interpretation of magnetic signals
+- Micromagnetic modeling
+- Scientific data analysis and visualization
+- Reproducible computational workflows
+
+The broader goal is to better understand how magnetic information is preserved from the microscopic scale of individual magnetic carriers to the geological record.
+
+## 🌎 Geoscience + Data
+
+Before focusing on paleomagnetism, I worked on problems involving **applied geophysics, remote sensing, geoprocessing, mineral exploration, and machine learning**.
+
+My undergraduate research integrated geological and geophysical datasets — including **magnetometry, gamma-ray spectrometry, satellite imagery, topography, and geological mapping** — with **Random Forest models** to identify and map mafic-ultramafic bodies in the Brasília Belt.
+
+This combination of geoscience and computation remains an important part of how I approach research today.
+
+## 💻 Computational Background
+
+Alongside geology, I have a background in **Information Technology, Big Data, and Data Engineering**, including professional experience in data engineering.
+
+I mainly work with:
+
+- **Python**
+- Scientific computing and data analysis
+- Machine learning
+- Geospatial data
+- Data processing and automation
+- Scientific visualization
+- Reproducible research workflows
+
+I am especially interested in developing computational tools that make geoscientific analysis **more quantitative, reproducible, and scalable**.
+
+## 🎓 Background
+
+- **PhD Candidate in Geophysics** — University of São Paulo (IAG-USP)
+- **B.Sc. in Geology** — Federal University of Goiás (UFG)
+- **Technology degree in Big Data and Analytical Intelligence**
+- **Technical degree in Information Technology** — Federal Institute Goiano
+
+I have also worked with research groups and laboratories including:
+
+- **USPMAG — Laboratory of Paleomagnetism (IAG-USP)**
+- **LGSR — Laboratory of Geophysics and Remote Sensing (UFG)**
+- **LabPaleoEvo — Laboratory of Paleontology and Evolution (UFG)**
+
+## 🧭 Research Interests
+
+**Rock Magnetism · Paleomagnetism · Paleointensity · Environmental Magnetism · Applied Geophysics · Magnetic Microscopy · Geospatial Analysis · Machine Learning · Scientific Computing · Open Science**
+
+## 🤝 Let's Connect
+
+I am always interested in discussing **rock magnetism, paleomagnetism, geophysics, scientific computing, new analytical methods, and collaborative research in Earth sciences**.
+
+🔗 **ORCID:** [0000-0002-1475-3834](https://orcid.org/0000-0002-1475-3834)

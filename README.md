@@ -2,7 +2,7 @@
 
 **Geologist · PhD Candidate in Geophysics · Rock Magnetism & Paleomagnetism · Scientific Computing**
 
-I am a geologist and PhD candidate in Geophysics at the **University of São Paulo (IAG-USP)**, where I work with **rock magnetism, paleomagnetism, magnetic microscopy, and computational methods applied to Earth sciences**.
+I am a geologist and PhD student in Geophysics at the **University of São Paulo**, where I work with **rock magnetism, paleomagnetism, magnetic microscopy, and computational methods applied to Earth sciences**.
 
 My research explores how magnetic information is recorded and preserved in geological materials, particularly in **ferromagnetic inclusions hosted in silicate crystals**, and how these signals can be used to investigate the Earth's magnetic field through geological time.
 

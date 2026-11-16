@@ -1,32 +1,30 @@
 # Lucas Marques Barros
 
-**Geologist · PhD Candidate in Geophysics · Rock Magnetism & Paleomagnetism · Scientific Computing**
+**Geologist · PhD candidate in Geophysics (University of São Paulo) · Scientific Computing**
 
-I am a geologist and PhD student in Geophysics at the **University of São Paulo**, where I work with **rock magnetism, paleomagnetism, magnetic microscopy, and computational methods applied to Earth sciences**.
+I am a geologist trained at the Federal University of Goiás (UFG) and a PhD candidate at the University of São Paulo (IAG-USP), working with **rock magnetism, paleomagnetism and paleointensity** at USPMAG. My research focuses on how geological materials record and preserve magnetic signals.
 
-My research explores how magnetic information is recorded and preserved in geological materials, particularly in **ferromagnetic inclusions hosted in silicate crystals**, and how these signals can be used to investigate the Earth's magnetic field through geological time.
+My background also includes **Big Data and data engineering**, with professional experience building cloud-based data pipelines, analytical workflows and computational solutions. I develop tools for scientific research, digital petrography and geoscience education.
 
-Beyond experimental geophysics, I am interested in the intersection between **geoscience, data, and scientific computing**. My work involves Python, geospatial analysis, machine learning, image processing, data visualization, and the development of reproducible research workflows.
+### Selected projects
 
-### Research interests
+| Project | Description | Links |
+|---|---|---|
+| **RIIMA** | Open-source digital petrography and affinity-based image classification with expert review. | [Repository](https://github.com/marquesbarros/riima) |
+| **Petrodle** | A mineral identification game using properties, photomicrographs and optical descriptions. | [Play](https://marquesbarros.github.io/petrodle/) · [Code](https://github.com/marquesbarros/petrodle) |
+| **Mineralchemy** | An exploratory mineralogy game about chemical components, minerals and geological processes. | [Play](https://marquesbarros.github.io/mineralchemy/) · [Code](https://github.com/marquesbarros/mineralchemy) |
 
-`Rock Magnetism` · `Paleomagnetism` · `Paleointensity` · `Magnetic Microscopy` · `Environmental Magnetism` · `Geophysics` · `Geospatial Analysis` · `Scientific Computing`
+### Research and technical interests
 
-### Background
+`Rock Magnetism` · `Paleomagnetism` · `Paleointensity` · `Magnetic Microscopy` · `Scientific Python` · `Digital Petrography` · `Geospatial Analysis` · `Machine Learning`
 
-- **PhD Candidate in Geophysics** - IAG, University of São Paulo
-- **Geologist** - Federal University of Goiás
-- Background in **Information Technology, Big Data, and Data Engineering**
-- Member of **USPMAG - USP's Laboratory of Paleomagnetism and Rock Magnetism**
-- Previous experience with **LGSR - Laboratory of Geophysics and Remote Sensing** and **LabPaleoEvo**
+### Academic and professional profile
 
-### Current focus
+- PhD in Geophysics (in progress, since 2025) — IAG-USP, FAPESP fellow
+- BSc in Geology — Federal University of Goiás, 2024
+- Degree in Big Data and Analytical Intelligence — UNIASSELVI, 2022
+- Previous experience in data engineering — Accenture Brasil, 2021–2025
 
-🧲 Magnetic stability of microscopic ferromagnetic inclusions  
-🔬 Magnetic microscopy and quantitative characterization  
-🌋 Paleomagnetic records in geological materials  
-💻 Open and reproducible computational tools for geoscience
+**[Personal website and CV](https://marquesbarros.github.io/marquesbarros/)** · [Lattes](https://lattes.cnpq.br/6262685341923739) · [ORCID](https://orcid.org/0000-0002-1475-3834) · [LinkedIn](https://www.linkedin.com/in/lucasmarquesbarros/) · [USPMAG](https://paleomagnetismo.iag.usp.br/)
 
----
-
-[USPMAG](https://paleomagnetismo.iag.usp.br/) · [ORCID](https://orcid.org/0000-0002-1475-3834)
+Contact: **marquesbarros@usp.br**

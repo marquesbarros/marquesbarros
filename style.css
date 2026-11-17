@@ -341,3 +341,31 @@ nav a:hover::after{right:0}
   }
   .contact-simple .section-index{padding-top:0}
 }
+
+/* RIIMA — real application screenshot */
+.riima-shot{
+  position:relative;
+  min-height:0;
+  aspect-ratio:1913/1010;
+  background:#111;
+}
+.riima-shot img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  display:block;
+}
+.riima-shot figcaption{
+  position:absolute;
+  left:14px;
+  bottom:12px;
+  padding:6px 8px;
+  background:rgba(20,24,20,.78);
+  border:1px solid rgba(255,255,255,.14);
+  color:#d9ddd5;
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  backdrop-filter:blur(6px);
+}

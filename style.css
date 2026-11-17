@@ -221,3 +221,38 @@ nav a:hover::after{right:0}
 @media (max-width:560px){
   .hero h1{font-size:15vw;line-height:.91;letter-spacing:-.05em}
 }
+
+/* hero photo — wider framing to preserve subject and Paricutín */
+@media (min-width:901px){
+  .hero-grid{
+    grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);
+    gap:26px;
+  }
+  .hero-copy{
+    max-width:580px;
+  }
+  .hero-photo{
+    width:min(680px,112%);
+    max-width:none;
+    margin-left:-62px;
+    padding-top:8px;
+  }
+  .hero-photo .image-mask{
+    aspect-ratio:3/2;
+  }
+  .hero-photo img{
+    object-fit:cover;
+    object-position:50% 50%;
+  }
+}
+@media (max-width:900px){
+  .hero-photo{
+    margin-left:0;
+  }
+  .hero-photo .image-mask{
+    aspect-ratio:3/2;
+  }
+  .hero-photo img{
+    object-position:50% 50%;
+  }
+}

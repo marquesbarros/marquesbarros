@@ -1,158 +1,93 @@
 %PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 8 0 R >> >> /Contents 6 0 R >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 8 0 R >> >> /Contents 7 0 R >>
+<<
+/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 6 0 obj
-<< /Length 4934 >>
-stream
-0.10 0.20 0.15 rg
-BT /F2 21 Tf 42 798 Td (LUCAS MARQUES BARROS) Tj ET
-0 0 0 rg
-BT /F2 10.5 Tf 42 779 Td (Ge\363logo | Doutorando em Geof\355sica | Dados e Computa\347\343o Cient\355fica) Tj ET
-BT /F1 7.6 Tf 42 763 Td (S\343o Paulo, SP  |  marquesbarros@usp.br  |  github.com/marquesbarros  |  linkedin.com/in/lucasmarquesbarros) Tj ET
-0.76 0.82 0.78 RG 42 752 m 553 752 l S
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 731 Td (PERFIL PROFISSIONAL) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 726 m 553 726 l S
-BT /F1 8.4 Tf 42 712 Td (Ge\363logo pela Universidade Federal de Goi\341s \(UFG\) e doutorando em Geof\355sica no IAG-USP, bolsista FAPESP.) Tj ET
-BT /F1 8.4 Tf 42 699 Td (Atua\347\343o em paleointensidade e magnetismo de rochas no USPMAG, com experi\352ncia em geoprocessamento,) Tj ET
-BT /F1 8.4 Tf 42 686 Td (sondagens, pesquisa mineral, engenharia de dados, cloud, Python, SQL, Power BI e desenvolvimento de software cient\355fico.) Tj ET
-BT /F1 8.4 Tf 42 673 Td (Perfil capaz de conectar observa\347\343o geol\363gica, laborat\363rio, an\341lise quantitativa e constru\347\343o de ferramentas digitais.) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 644 Td (COMPET\312NCIAS CENTRAIS) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 639 m 553 639 l S
-BT /F1 8.1 Tf 52 625 Td (- Geologia e minera\347\343o: mapeamento, cartografia, SIG, descri\347\343o de solo e rocha, sondagens e pesquisa mineral.) Tj ET
-BT /F1 8.1 Tf 52 612 Td (- Geof\355sica: paleointensidade, magnetismo de rochas, mineralogia magn\351tica e interpreta\347\343o quantitativa.) Tj ET
-BT /F1 8.1 Tf 52 599 Td (- GeoData e software: Python, SQL, machine learning, processamento de imagens, automa\347\343o e visualiza\347\343o.) Tj ET
-BT /F1 8.1 Tf 52 586 Td (- Data engineering: ETL/ELT, GCP, AWS, Azure, BigQuery, Databricks, Airflow, Power BI e Terraform.) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 557 Td (EXPERI\312NCIA SELECIONADA) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 552 m 553 552 l S
-BT /F2 9 Tf 42 538 Td (USPMAG / IAG-USP  |  Pesquisa de doutorado em Geof\355sica  |  2025-atual) Tj ET
-BT /F1 8.1 Tf 52 524 Td (- Paleointensidade por protocolos t\351rmicos e relativos, incluindo TLL/TLE e MSP-DSC.) Tj ET
-BT /F1 8.1 Tf 52 511 Td (- Histerese, backfield, IRM/ARM, FORC, curvas termomagn\351ticas e an\341lise de estados de dom\355nio.) Tj ET
-BT /F1 8.1 Tf 52 498 Td (- Integra\347\343o de experimentos, imagens e dados em fluxos reprodut\355veis de an\341lise.) Tj ET
-BT /F2 9 Tf 42 475 Td (Servi\347o Geol\363gico do Brasil \(SGB\) - GEREMI-GO  |  Estagi\341rio de Geologia  |  2024) Tj ET
-BT /F1 8.1 Tf 52 461 Td (- Atua\347\343o em contexto de Geologia e Recursos Minerais e participa\347\343o em atividades da equipe em Goi\342nia.) Tj ET
-BT /F1 8.1 Tf 52 448 Td (- Estudo da Plataforma de Suporte ao Planejamento da Pesquisa e Produ\347\343o Mineral \(P3M\).) Tj ET
-BT /F1 8.1 Tf 52 435 Td (- Trabalho sobre a P3M apresentado no 51- Congresso Brasileiro de Geologia.) Tj ET
-BT /F2 9 Tf 42 412 Td (Accenture Brasil  |  Engenharia de Dados  |  2021-2025) Tj ET
-BT /F1 8.1 Tf 52 398 Td (- Desenvolvimento de pipelines ETL/ELT e solu\347\365es de integra\347\343o, migra\347\343o e qualidade de dados com Python e SQL.) Tj ET
-BT /F1 8.1 Tf 52 385 Td (- GCP, AWS e Azure: BigQuery, Dataflow, Dataproc, Airflow, Databricks, Lambda, Glue, Redshift e S3.) Tj ET
-BT /F1 8.1 Tf 52 372 Td (- Git, Terraform, Power BI, automa\347\343o e suporte a projetos de grande porte em diferentes setores.) Tj ET
-BT /F2 9 Tf 42 349 Td (Pr\363-Solo Sondagens e Funda\347\365es  |  Estagi\341rio de Geologia  |  2020) Tj ET
-BT /F1 8.1 Tf 52 335 Td (- Acompanhamento de sondagens SPT, mistas e rotativas e apoio \340 organiza\347\343o de campanhas.) Tj ET
-BT /F1 8.1 Tf 52 322 Td (- Descri\347\343o geot\351cnica de solo e rocha, perfis de sondagem, relat\363rios t\351cnicos e trabalhos em SIG.) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 292 Td (FORMA\307\303O) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 287 m 553 287 l S
-BT /F2 9 Tf 42 273 Td (Doutorado em Geof\355sica - Universidade de S\343o Paulo \(IAG-USP\)  |  2025-atual) Tj ET
-BT /F1 8.1 Tf 52 260 Td (USPMAG | Paleointensidade baseada em microscopia magn\351tica de inclus\365es em monocristais | Bolsa FAPESP.) Tj ET
-BT /F2 9 Tf 42 239 Td (Bacharelado em Geologia - Universidade Federal de Goi\341s \(UFG\)  |  2017-2024) Tj ET
-BT /F1 8.1 Tf 52 226 Td (TCC: machine learning aplicado \340 identifica\347\343o de corpos m\341ficos-ultram\341ficos na Faixa Bras\355lia, Goi\341s.) Tj ET
-BT /F2 9 Tf 42 205 Td (Big Data e Intelig\352ncia Anal\355tica - UNIASSELVI  |  2018-2022) Tj ET
-BT /F2 9 Tf 42 184 Td (T\351cnico em Inform\341tica - Instituto Federal Goiano, Campus Ceres  |  2014-2016) Tj ET
-0.76 0.82 0.78 RG 42 155 m 553 155 l S
-BT /F2 8.5 Tf 42 136 Td (Curr\355culo completo e projetos: marquesbarros.github.io/marquesbarros/) Tj ET
-BT /F1 7.8 Tf 42 121 Td (Lattes: lattes.cnpq.br/6262685341923739  |  ORCID: 0000-0002-1475-3834) Tj ET
-endstream
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
 endobj
 7 0 obj
-<< /Length 4569 >>
-stream
-0.10 0.20 0.15 rg
-BT /F2 16 Tf 42 798 Td (LUCAS MARQUES BARROS) Tj ET
-0 0 0 rg
-BT /F1 9 Tf 42 780 Td (Projetos, m\351todos e produ\347\343o selecionada) Tj ET
-0.76 0.82 0.78 RG 42 768 m 553 768 l S
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 746 Td (PROJETOS AUTORAIS) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 741 m 553 741 l S
-BT /F2 10 Tf 42 727 Td (RIIMA - Really Intuitive Image Mapping by Affinity) Tj ET
-BT /F1 8.2 Tf 52 713 Td (Software de petrografia digital orientada pelo usu\341rio para imagens correspondentes de l\342minas delgadas.) Tj ET
-BT /F1 8.1 Tf 52 699 Td (- Registro de imagens por correla\347\343o de fase/ECC, descritores locais em L*a*b* e classifica\347\343o inicial por k-means.) Tj ET
-BT /F1 8.1 Tf 52 686 Td (- Revis\343o supervisionada de m\341scaras com Random Trees, agrupamento, exporta\347\343o e rastreabilidade de projeto.) Tj ET
-BT /F1 7.8 Tf 52 673 Td (github.com/marquesbarros/riima) Tj ET
-BT /F2 10 Tf 42 650 Td (Petrodle) Tj ET
-BT /F1 8.2 Tf 52 636 Td (Jogo de identifica\347\343o mineral\363gica por propriedades, fotomicrografias e descri\347\365es \363pticas.) Tj ET
-BT /F1 8.1 Tf 52 622 Td (- Tr\352s modos de jogo, desafios di\341rios e treino; cat\341logo publicado com 152 esp\351cies minerais.) Tj ET
-BT /F1 8.1 Tf 52 609 Td (- Aplica\347\343o est\341tica com estado local, testes automatizados e documenta\347\343o de fontes e direitos das imagens.) Tj ET
-BT /F1 7.8 Tf 52 596 Td (marquesbarros.github.io/petrodle/) Tj ET
-BT /F2 10 Tf 42 573 Td (Mineralchemy) Tj ET
-BT /F1 8.2 Tf 52 559 Td (Jogo explorat\363rio de rela\347\365es entre componentes qu\355micos, minerais e agentes geol\363gicos.) Tj ET
-BT /F1 8.1 Tf 52 545 Td (- Vers\343o publicada com 178 minerais, 279 rea\347\365es ativas e 269 pares execut\341veis.) Tj ET
-BT /F1 8.1 Tf 52 532 Td (- Cat\341logo cient\355fico audit\341vel, organiza\347\343o por processo/produto e documenta\347\343o dos limites did\341ticos.) Tj ET
-BT /F1 7.8 Tf 52 519 Td (marquesbarros.github.io/mineralchemy/) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 490 Td (M\311TODOS E FERRAMENTAS) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 485 m 553 485 l S
-BT /F2 8.8 Tf 42 471 Td (Geologia & minera\347\343o) Tj ET
-BT /F1 7.7 Tf 52 458 Td (QGIS | ArcGIS/ArcMap | Global Mapper | Micromine | Studio RM | Sondagens | Cartografia | Mapeamento preditivo) Tj ET
-BT /F2 8.8 Tf 42 437 Td (Magnetismo & paleomagnetismo) Tj ET
-BT /F1 7.7 Tf 52 424 Td (TLL/TLE | MSP-DSC | Arai | Histerese | Backfield | IRM | ARM | FORC | Curvas termomagn\351ticas | AMS/AARM/ATRM) Tj ET
-BT /F2 8.8 Tf 42 403 Td (Programa\347\343o & dados) Tj ET
-BT /F1 7.7 Tf 52 390 Td (Python | SQL | R | Git/GitHub | Power BI | Power Query | DAX | Machine Learning | OpenCV | Estat\355stica) Tj ET
-BT /F2 8.8 Tf 42 369 Td (Cloud & engenharia) Tj ET
-BT /F1 7.7 Tf 52 356 Td (GCP | AWS | Azure | BigQuery | Dataflow | Dataproc | Airflow | Databricks | Lambda | Glue | Redshift | Terraform) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 327 Td (PRODU\307\303O SELECIONADA) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 322 m 553 322 l S
-BT /F2 8.4 Tf 42 308 Td (2026  Preliminary paleointensity results from Brazilian Cretaceous dykes \(Ilhabela, S\343o Paulo\).) Tj ET
-BT /F1 7.8 Tf 52 295 Td (LatinMag Letters - Barros, L. M.; Trindade, R. I. F.; Raposo, M. I. B.) Tj ET
-BT /F2 8.4 Tf 42 274 Td (2025  Uso de machine learning para o estudo de corpos m\341ficos-ultram\341ficos no Arco Magm\341tico de Aren\363polis.) Tj ET
-BT /F1 7.8 Tf 52 261 Td (XXI Simp\363sio Brasileiro de Sensoriamento Remoto - Barros, L. M.; Temporim, F. A.) Tj ET
-BT /F2 8.4 Tf 42 240 Td (2024  Efetividade da P3M na cadeia de valor do setor mineral brasileiro.) Tj ET
-BT /F1 7.8 Tf 52 227 Td (51- Congresso Brasileiro de Geologia.) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 198 Td (FORMA\307\303O COMPLEMENTAR E IDIOMAS) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 193 m 553 193 l S
-BT /F1 8.1 Tf 52 179 Td (- Modelagem geol\363gica com Studio RM; Micromine; prospec\347\343o e mapeamento geoqu\355mico; an\341lise cinem\341tica de taludes.) Tj ET
-BT /F1 8.1 Tf 52 166 Td (- Informatica Data Engineering; AWS Cloud Practitioner Essentials; Google Cloud Essentials; Six Sigma Yellow Belt.) Tj ET
-BT /F1 8.1 Tf 52 153 Td (- Portugu\352s nativo; ingl\352s profissional; espanhol intermedi\341rio.) Tj ET
-0.16 0.32 0.24 rg
-BT /F2 9.5 Tf 42 124 Td (CONTATO) Tj ET
-0 0 0 rg
-0.76 0.82 0.78 RG 42 119 m 553 119 l S
-BT /F2 8.8 Tf 42 105 Td (marquesbarros@usp.br  |  S\343o Paulo, Brasil) Tj ET
-BT /F1 7.8 Tf 42 91 Td (GitHub: github.com/marquesbarros  |  LinkedIn: linkedin.com/in/lucasmarquesbarros) Tj ET
-endstream
+<<
+/Author (Lucas Marques Barros) /CreationDate (D:20261117215613+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261117215613+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Curr\355culo - Lucas Marques Barros) /Trapped /False
+>>
 endobj
 8 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+<<
+/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2859
+>>
+stream
+Gb!#^gJ['&&q/pnnr]NZ6D_<605J?_*5TURh(eN:9-G+KH6nig,geagqsg.U\l^`%@)ffE'+MB!WUb()k/e5=9`-+2H^"M8bi&Df!3or*%)ak?R,,PsG4O\3#[B.o^^*(#kMo@Y2r,#d7OP_0k=H"50hfda/?g/4,d-T&!j:Q#QJ;6aL?V:;LTe,lRN2gk#u(d94#$%urR>cI67jRMQ-C'[_:s\F?CSap9bGb]DQ3P2YRE._PTk`$>S^4$g9)A0Z%/YbcTKC\887u*B&@%jS(b5jDpRo(]6ikcU[=-H:FVCV<F7I#c"2?8P4,r9CV((2;+8Y:*C;Gb`,_C[n?$_HboIHK[EJA'3b5:)=KW"N7Ya%ZD`5B;gBNbTZ&+*QF=f<Q%*Pu)a*h`S&X51]dS6K1]</1PYt*QTA$HU7+1MqP/gO0S!a#LK-D"4N1EKEk-,,?u^:2OHe*IM*FH.5HOL$>MGQU^u@D-6\Xa^Qmn@uXl5,`9Fg@cuXbn`",R/8\,:=.(X%-Nh7k.cdiBfnubGes!<ilR!EEo'rM^P[=5D`6dXrZt@dA!NAQ75m'L=n[40i2MKOp&Z%='3_h_L[X`&=H2KJ(7;]MGbOqqbh(JlVN.1C,<$K(>`Wf2no0(ASkd?#GCuCP0%>"8!aCkc1151"_#72SR:5oo)\R*V]Z:FrkVXGR#1(&TR/6NQ\Krk0p2rB"3Dg[g6^tPF6@R8u\9S,FgE+"g]rkpK/,TRIQ%l]lSgB:DHqX8cP8Ql.0Xt_9-><n`E[8/p0c<*FI_-XaIR2]3[rX,90HQ1!hklSn5ZHaFZQB@s-n]<I\>1hm4O%#4mIiq(7d"Lq,WnEG7UjIg&n7!_NCg9jN6?Ga`C5M^]3'1)>*4\5ngp\$1LME4XPiS!A4"[O^EaYeo17J4Fhn5g1e(`t*&iO*RM#-[>oR1%99h;Z:Bp1;P0'SAFGdH:+\NV&IA)g>qfGguK*;pu/n.sQ':.cODjm[3`]RbUp:)MOnR(cVo^GSX*0&Bef1_u]MK_On#'kbcV4b[OT4rs*V)b8h]qVX;BIm#;@MqgG7Jt<9--bkFR:VN01,?lK$K)N%)kG'02ELjM_(Y7q-c=W49rttMnR/r#gb+a/qk<t&amC:_CBHMAi:n(2P1kOO(9FYt+gd3GqRLH&FjT"]KX)=:DA&Nbr>QMh9`Zts_^D#`!AV6>)P_rNS&46NNR9/n`@YB$Ou[2I6tItdP!5XH/^D`B)k-F7g*9&;Req0FUfcFVf=g)gF=B28KSB[?c`dGrcHtlNf*!OCRe'U'_2;7I$+l`m-@#5]o<YI'XJr;uPCm0!BZZ[Dea>WbC9C/dbB]C])HO%A#'B(8rmnsC$1b)[l?]q(/>o%dQA$pMQuEdtB1te'/,ltu]_Gi6728[TJ4pHHL[?#@O:9dOHs6[Ob$RQjL[!E[55)X]9Z"bN"[./tdR)0V9R455_ru-hLVY'2r:Y=X0i?t1pI<ul/n7c&G6RE=W"HL.bhK@-1FY1KC"D^$m2XRA_nui"`aR#:#DU!R`YatfRW4j+"<.!I&(jg#LoRIM!k/N=WX<4LVg1#;ZLMngKke'7ri'En$-K\p;R0p^R;1"<:&*Mt.'Q]/I:2XJf5*=%J(A7fJ"i/Kf6t(PW*os56^S:[?b_SuKDchCE=fBei.'Gjm+=U6i5Pp;<5WW:31p@8j=jtF.pVp?W,HHP\?nrQm84RFn^`NnSt;]nY^F)SDnD-f2>^R1ge).ZCg6SF2P`2n.&46H$)a'ZLNC9"[tE(s)s[WL41T^u,,m^f6J%C[43PV3Yhm*S1O<;^37HU?H@VNR1o9,-D6+G/JFq7[/\hdAkEZhe5qdK\E^4%uf,JsP?@W$b5D!7s4=5NJrQ$;A&Wo/nW%[dj._-<#[>6sS\5O_][;ZiV#.;ao5o2.!p5'WAhs'>+LYlDq%pLK\B/$pS"`\l2_Q>%s!fTHk%&cOT:g(@r!I7s58c>V\N^>?mSlFlam9j?5HXK\o1Xn@m>5IhX\sA=*bMECtbB49g,N/2V,<-`(8P`@=r<Pj**$,WaSKi`e7Ol%iRtE-+I%c.mTm.&'Q9H$64XX.;V'um09"sWpA>k*c'9QVgqGE.<6=TI8`I$e3"='$RaAU"hUu`a,j&35o;:O9]C5"22O4[HdHdS9Tc_*&p[`4(3a!'c!?9bCE':DiZHB0<u.Pu&GUN+b(EQN#,4ju)*=5@Wb'70oQI43(Jd[Wqcf2U"Z&(Qe:-Q[!lb*)anYi,1=:dgNWY'.PjY<5aUrnU_U-\sf=VR!#'mdst95RFYk$G*iA!"#3^69IYC*@Ui0QN0sL!4'?Bf]7i_C0E0BbSAXnF1LO[FJ,p3CoBa\^:ri5l]Y9!ggI>*ndYIM=Bk/?)B3[%6@$orPu-)m.%dIVE.tuZl;H]R&Qj+%2&ERJ=7osJ55Z/#eHofp_oJ55s2re`XR0jsF__WdVB3hJ=%qC"V@OJam@p%9[lCgKBI#EY%l2)34ugV'QY?D3NX^kQ4Q]V[X?N!:a?e<oX:\$b?Oe=<6n1LTS#Wg5Bldh+i4?_UA`iYjE0JW**!Uj14q;*!,\6X+D94'sjRSg?]9Sm0<F_IJIo0$Td%#-VSt+.RXU`.H6BnE@p:8k%[<<tRIFb.FR>;9j8@EtPN'F:V\eN\!6fgHY`ZO-F($m".I+JYK_"/'!Z["t+9X[/4hOkmM^uo=*Sike8N%Y\dm,d'm:AoTpH;l51Zro5co5aNJ%.9!DSX(aN-*"AdH`RkHZO+UNU"23*A0JCD1MiP_kFK0iXW9Xk^NS9->XU_4I*.+Y4Y0UOGEVOm!q)=4^gG"PBdmR<STBqWEtZ%Z,^q93IBnItQ9Q7#07]8d!p&Ck!W~>endstream
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2782
+>>
+stream
+Gb!#^D0+FB')nJ0YohFNNFGJ.:$9eB6:cheTl>RQl(-dkC)!CK@hIBhg[jaWb()4KPMhbkD;$6mk[h0JZb+P@;K2+9/Utc5JBKC3?W3U+VY<>]ikk='HIJ(u',#Ud'ESShr!Mr&)`V.,j-p]%o_Ba9NtR4fT)j.m6bU9f-$ZRcQreV`J]Z#GO2,WF<]^l\7LfO;6\e2*GPPnfFu\;[=`(u'/fTL(G6t1V74^22#kM0>$nd5g3eK6P(<4S.kJ]la@:f)EatfelOh?80-^amA2r.]m-U-Sf993]?V$iOq@'s/;6$H;WJrN>f&/(%N0"TGVMhWj^/fqo?O\:6ZT*;Clc$:::G+8)=#1P(bcE&s"YD;.(B?$JB^\MhekInQC[J/D=c/-]9iRY!!7TeSo&Ht,QKX$WV=nRr?E<!t8;_GhnZm8#`[!eQ`m,&ZS=IRk.*8dq.C`^AOR_:l#.i.L642;lBFnl%@6A(-0Fu^1s7-1]anOfu@LO!MV0D66gJ"XS11$4!sn^cI_X\QS&ns#9b=Gpud6G!\HO9ZJ.U!.R&qe5@bqr%*=(V)G5Y!F]!7d>=ngJ#S\[)8?D=i8tcgbId[/lb]qA83aZ'(G>maicQ#KFNIbl.ol,Hh5M(p5J1c%lH2Y4#Ca5BMRdBd:JE7UZoeG6_e1\j*AlQN%cplN:F+Vcej3b.9oMUUbW#6!iAG`p,qCt8=nu_N@HD8%`#"cmZ2>3V+9Sb%F1&Smd!h^_%EYi.H1S@A?mFaU)3*-LitB5dYPgSmRA^r0/H80l^O6_L:-+X[aFKI%s'W]kW_SIBt&EiSQ17m6N_s`>bJo+oS,sa,Z:"/V$gB3Un*r!44X;=K4Ab!=BLm_M"mjmcAEl+@eU:5-<Aje-=oVT3IEF.(U<YPl(nu[NUK8l\!>"jJpgcJ/SOSLXC?2@!:CH^7qdq,3[2g99658A7Qhs=V_V"[gulcGP3/*G!EUH]+JGFi1/SEIJ>KL`cp9s*iQ0cOg\:ZlACA*gX5<t8:+K#,#<87Ks*rC#"HE8m(c6ns`[OB?Krgp'CK&5RHXuteQE)!@C6b;Cc:"\7-ksj)O[3%eR2ld,(I]&gcO:(c)%Zp.>^oKhNlJt$HdgpVH8+b]mV\qn.ssT/p:C4]Hi*<D@e9^,*JXq"Y):Wu]un.1'C[\";0@IKOb/EG3hBkE,YHGIYUN=,.GG890&4DPHR2EV=ME;uHP5oblW#.:_N^?u.fYB>@*-MH\2S_J/'?`VX%Wk+,BFGiNPqH=rL^Ii\Xu!?O!k+em]".X)cDSNp3NOjMHlt[Z%-&Hk9pYNY@$tO\qD/&WZU/C9L*KJhjI,0(7mP=Pm/l;GP\ir#^=r0!Wj$;Q5B-[<J-$d_5)j(guc4hB#huuLokcnZFAT;3nDm2B&.D[C`bk5@A9&<]0,f*Rmg.pQQ&_^:"h##6lDe//=/EL0**$&a,Hnu'QLoq!u2IdCCb1K?KUNedm"-U,q'XI'b[?E$Ij70"JP3%WVj-nNu]XTa$O?<?=5iN06R\AJE3s-B6H>qK@q3E&7\sNfbO5nI1hApJ=O_,p4BO(9`/!9dh6,Nc5?DNX4%5aL$W$&\&/.k>Wo9]!e2(hr]73bgDI(XQ6liG,rZAen?A5D$QE7@JtXf?*:&:[Ts\lNUjtkR,#Ngt`&"gcd,$*80>f]U=Ec]&CeFqjFW-1HiV$?&5Mg,T=NJ*fV9rpCbSgqMDU$#s0+P?9EOUq6[REh@9C=)=>PrjNN4l+0@\[[d(+-usdS6-/=KWnr:M$^:1+N]u74)j`_^MO&3S(0kV7)pEiR5-dWY/l9`%I=Hms<cun3hfs(<m^-K1_Xj&+G4?HMKQafY&5"8i=,.D$\tV@!(-Bo\NA*j-K7tq[Nq&0_fMH+a.[eJW2$bfLYC)cpf)Ika6)Q&=LCO^N?P8Wc)rM]a!Fk#6oL7C2^Afo%>9U$mX8Y'9ju6PK&5u9bt>0!?3NC<nh)kW@r3#GE^EI.aX"XrM<(:nd%=GGAj]8n(e=ZR1U=&I5tB-*AC4DjiWmOFD_iL=rlI;e6tEDLS]K-]$u/Ebs=mPj*CHNlPn_uDK1-l._nUADq6f*ZHV47Ear7Dkkk:a^oT:f1%mTjgibkmCXQP'moX:9"oC\87BUb/rG=gehD[Q/j$I*s-@\JjrK&g4P%H3^moWeWG,pTV*BY,2!c3]GDOCO<2++QcYe&VSGm'IemXnVM0DJET#`binBQSd/4IS']/"'0%FOIa?r=@1+!'@badq$!<o"p9.C`)N6*ONVJYN7>O<i>C!5f711iM$I'eQao>")(6k<WAsb8S<?NP9QQ8kA&!c)t^`_'Ipd,e)'uDJKJc=LJD+"l#3UkW#o"D2@jc3j4Kp\3Hd:OZc8=`<DU4f&Kf1l%*Ot,[X?/5<B'73@V"q]OH&QA"8eH59QRVQ-#D)F"8QLSXnpo0Kj085;jH,"hl\_9=fbX1VW+\iaq2a]ITK,,Pq]bcpM9F5(K_RR#s6d[K)B(2VRB&$"a,qYlI?Q7`UjgF#%[0fRtXD<I+GW(o1&;mL0KD'!<0D5XLq8Q^4"_/JHF/C&M>!PiVKN-k[1%]mU%4+YD2)oU`Kesk\s-K,45E"phdS1pm$ETT>ipFH@ahH%9R"P?-g=YJ.-fUnm#cCn;uh6Mt?P9HmE^CH6aTW\W>tLTneIZ@Q`T7g/-4?3:?LDf$cCEV[^(r"R1*ti7AiqZSUkNhAHj7]:3r<och4G+$X/SRGILOr;p,dmh=3uk:u\0V3:U4G,aV2bI]L\+9($2Y<Tc&)G^848h=Aa~>endstream
 endobj
 xref
-0 9
+0 11
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000121 00000 n 
-0000000257 00000 n 
-0000000393 00000 n 
-0000000490 00000 n 
-0000005475 00000 n 
-0000010095 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000728 00000 n 
+0000000796 00000 n 
+0000001105 00000 n 
+0000001170 00000 n 
+0000004120 00000 n 
 trailer
-<< /Size 9 /Root 1 0 R >>
+<<
+/ID 
+[<7b9d6a862a7c190e766cbe0d85cbd6cb><7b9d6a862a7c190e766cbe0d85cbd6cb>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 11
+>>
 startxref
-10197
+6994
 %%EOF

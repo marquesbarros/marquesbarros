@@ -20,7 +20,7 @@ My background also includes **Big Data and data engineering**, with professional
 
 ### Academic and professional profile
 
-- PhD in Geophysics (in progress, since 2025) — IAG-USP, FAPESP fellow
+- PhD in Geophysics (in progress, since 2025) — IAG-USP, FAPESP fellow (Processo nº 2026/22988-8)
 - BSc in Geology — Federal University of Goiás, 2024
 - Degree in Big Data and Analytical Intelligence — UNIASSELVI, 2022
 - Previous experience in data engineering — Accenture Brasil, 2021–2025

@@ -325,3 +325,19 @@ nav a:hover::after{right:0}
     object-position:58% 50%;
   }
 }
+
+/* simplified contact section */
+.contact-simple{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:80px;
+  align-items:start;
+}
+.contact-simple .section-index{padding-top:12px}
+@media (max-width:900px){
+  .contact-simple{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+  .contact-simple .section-index{padding-top:0}
+}

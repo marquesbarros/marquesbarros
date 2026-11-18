@@ -679,6 +679,10 @@ section:focus {
 .publication-copy {
   min-width: 0;
 }
+.publication-figure img {
+  border: 1px solid var(--line);
+  background: #fff;
+}
 .publication-list h4 {
   font: 500 clamp(19px, 2vw, 25px) / 1.4 var(--display);
   margin: 0;

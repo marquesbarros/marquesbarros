@@ -432,10 +432,6 @@ section:focus {
   outline-offset: 3px;
 }
 .laboratory-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  gap: 52px;
-  align-items: center;
   margin-top: 0;
   margin-bottom: 80px;
   margin-left: var(--indent);
@@ -468,16 +464,6 @@ section:focus {
 .figure-placeholder figcaption {
   margin-top: 12px;
 }
-.research-lab-photo .image-mask {
-  aspect-ratio: 4/3;
-  overflow: hidden;
-}
-.research-lab-photo img {
-  height: 100%;
-  object-fit: cover;
-  object-position: center 44%;
-}
-.research-lab-photo figcaption,
 .outreach-photo figcaption {
   margin-top: 10px;
   font-size: 13px;
@@ -489,6 +475,7 @@ section:focus {
 }
 .method-copy p {
   color: var(--muted);
+  max-width: 72ch;
 }
 .tcc-grid {
   display: grid;
@@ -928,7 +915,6 @@ section:focus {
     margin-bottom: 40px;
   }
   .research-intro,
-  .laboratory-intro,
   .tcc-grid,
   .project-feature,
   .outreach-grid {
@@ -937,9 +923,6 @@ section:focus {
   }
   .research-intro {
     padding-bottom: 40px;
-  }
-  .research-lab-photo {
-    max-width: 620px;
   }
   .project-feature {
     padding-bottom: 64px;

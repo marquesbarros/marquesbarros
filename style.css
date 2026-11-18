@@ -640,3 +640,23 @@ body{background:var(--paper)}
   font-size:10px;
   line-height:1.5;
 }
+
+/* TCC — real prediction map */
+.prediction-real{
+  background:#fff;
+  border-color:#353b36;
+}
+.tcc-prediction-image{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#fff;
+}
+.prediction-real figcaption{
+  padding:12px 16px 14px;
+  color:#8a9288;
+  background:#101411;
+  border-top:1px solid #2f352f;
+  font-size:10px;
+  line-height:1.5;
+}

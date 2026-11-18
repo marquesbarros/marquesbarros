@@ -106,27 +106,9 @@
           <p class="tcc-title">Aplicação de machine learning para identificação de corpos máficos-ultramáficos na porção sul da Faixa Brasília, Goiás, Brasil.</p>
         </div>
 
-        <figure class="prediction-figure reveal">
-          <div class="prediction-topline"><span>Fluxo do TCC</span><small>síntese metodológica</small></div>
-          <div class="data-stack">
-            <span>Mapa geológico</span>
-            <span>Landsat 9</span>
-            <span>SRTM</span>
-            <span>Aerogeofísica</span>
-          </div>
-          <div class="prediction-arrow">↓</div>
-          <div class="ml-core"><strong>Random Forest</strong><small>classificação supervisionada</small></div>
-          <div class="prediction-arrow">↓</div>
-          <svg class="prediction-map" viewBox="0 0 520 250" aria-label="Representação esquemática de mapa de classificação litológica">
-            <rect width="520" height="250" fill="#161b17"/>
-            <path d="M0 165 C70 115 115 205 175 150 S295 80 350 135 435 200 520 142V250H0Z" fill="#737d6d"/>
-            <path d="M0 58 C80 30 120 90 190 60 S290 20 345 68 435 115 520 72V0H0Z" fill="#39443a"/>
-            <path d="M78 96 L150 75 205 120 172 166 95 151Z" fill="#b0b7a8"/>
-            <path d="M270 88 L350 75 390 116 365 163 295 150Z" fill="#8f9a88"/>
-            <path d="M412 145 L485 125 520 156V222L457 212Z" fill="#c4c9bc"/>
-            <g class="map-lines"><path d="M42 0L120 250M190 0L250 250M350 0L420 250"/></g>
-          </svg>
-          <figcaption>Representação esquemática do fluxo de integração e classificação usado no trabalho.</figcaption>
+        <figure class="prediction-figure prediction-real reveal">
+          <img id="tcc-prediction-figure" class="tcc-prediction-image" alt="Mapa de probabilidade de ocorrência de corpos máficos-ultramáficos produzido no TCC, com predições e pontos visitados em campo" loading="lazy" decoding="async">
+          <figcaption>Mapa de probabilidade de ocorrência de corpos máficos-ultramáficos, com predições do modelo e pontos visitados em campo durante a validação do trabalho.</figcaption>
         </figure>
       </div>
     </div>

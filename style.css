@@ -627,13 +627,6 @@ section:focus {
   color: var(--muted);
   font-size: 12px;
 }
-.career-photo {
-  margin-top: 32px;
-}
-.career-photo figcaption {
-  margin-top: 10px;
-  font-size: 13px;
-}
 .career-notes {
   margin-top: 40px;
   padding-top: 28px;

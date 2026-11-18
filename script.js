@@ -1,80 +1,41 @@
 (() => {
-  const items = document.querySelectorAll('.reveal, .reveal-image');
-  if (!('IntersectionObserver' in window)) {
-    items.forEach(item => item.classList.add('is-visible'));
-    return;
+  const button = document.querySelector('.menu-toggle');
+  const menu = document.getElementById('site-menu');
+  if (button && menu) {
+    // Collapse only after keyboard and pointer controls are operational.
+    const setOpen = open => {
+      button.setAttribute('aria-expanded', String(open));
+      menu.classList.toggle('is-open', open);
+    };
+    button.addEventListener('click', () => setOpen(button.getAttribute('aria-expanded') !== 'true'));
+    menu.addEventListener('click', event => {
+      const link = event.target.closest('a');
+      if (!link) return;
+      const wasOpen = button.getAttribute('aria-expanded') === 'true';
+      setOpen(false);
+      if (wasOpen && link.hash && link.pathname === location.pathname) {
+        document.getElementById(decodeURIComponent(link.hash.slice(1)))?.focus({ preventScroll: true });
+      }
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        button.focus();
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!event.target.closest('.site-header')) setOpen(false);
+    });
+    window.matchMedia('(min-width: 901px)').addEventListener('change', () => setOpen(false));
+    document.documentElement.classList.add('js-nav');
   }
+  if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const observer = new IntersectionObserver((entries, obs) => {
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
       entry.target.classList.add('is-visible');
       obs.unobserve(entry.target);
     });
-  }, { threshold: 0.12, rootMargin: '0px 0px -5% 0px' });
-  items.forEach(item => observer.observe(item));
-})();
-
-(async () => {
-  const img = document.getElementById('riima-screenshot');
-  if (!img) return;
-  try {
-    const files = Array.from({ length: 11 }, (_, i) =>
-      './assets/riima-interface/chunk-' + String(i).padStart(2, '0') + '.txt'
-    );
-    const parts = await Promise.all(files.map(url => fetch(url).then(r => {
-      if (!r.ok) throw new Error('RIIMA screenshot chunk failed: ' + url);
-      return r.text();
-    })));
-    const binary = atob(parts.join(''));
-    const bytes = new Uint8Array(binary.length);
-    for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
-    img.src = URL.createObjectURL(new Blob([bytes], { type: 'image/webp' }));
-  } catch (error) {
-    console.error(error);
-    img.alt = 'Captura da interface do RIIMA indisponível.';
-  }
-})();
-
-
-(async () => {
-  const img = document.getElementById('saa-targets-figure');
-  if (!img) return;
-  try {
-    const files = Array.from({ length: 4 }, (_, i) =>
-      './assets/saa-targets/chunk-' + String(i).padStart(2, '0') + '.txt'
-    );
-    const parts = await Promise.all(files.map(url => fetch(url).then(r => {
-      if (!r.ok) throw new Error('SAA figure chunk failed: ' + url);
-      return r.text();
-    })));
-    const binary = atob(parts.join(''));
-    const bytes = new Uint8Array(binary.length);
-    for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
-    img.src = URL.createObjectURL(new Blob([bytes], { type: 'image/webp' }));
-  } catch (error) {
-    console.error(error);
-    img.alt = 'Figura da Anomalia Magnética do Atlântico Sul indisponível.';
-  }
-})();
-
-
-(async () => {
-  const img = document.getElementById('tcc-prediction-figure');
-  if (!img) return;
-  try {
-    const files = Array.from({ length: 21 }, (_, i) =>
-      './assets/tcc-prediction/chunk-' + String(i).padStart(2, '0') + '.txt'
-    );
-    const parts = await Promise.all(files.map(url => fetch(url).then(r => {
-      if (!r.ok) throw new Error('TCC figure chunk failed: ' + url);
-      return r.text();
-    })));
-    const binary = atob(parts.join(''));
-    const bytes = new Uint8Array(binary.length);
-    for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
-    img.src = URL.createObjectURL(new Blob([bytes], { type: 'image/webp' }));
-  } catch (error) {
-    console.error(error);
-    img.alt = 'Figura do TCC indisponível.';
-  }
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(item => observer.observe(item));
 })();

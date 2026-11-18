@@ -599,3 +599,24 @@ body{background:var(--paper)}
   .career-column article{grid-template-columns:86px 1fr;gap:12px}
   .career-actions{display:grid;gap:12px}
 }
+
+/* v6 — richer, source-backed career detail */
+.career-notes{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  margin:42px 0 0 16%;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+}
+.career-notes .mini-label{margin-bottom:10px}
+.career-notes p{
+  margin:0;
+  max-width:620px;
+  color:#626a60;
+  font-size:12px;
+  line-height:1.65;
+}
+@media (max-width:900px){
+  .career-notes{margin-left:0;grid-template-columns:1fr;gap:28px}
+}

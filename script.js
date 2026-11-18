@@ -34,3 +34,25 @@
     img.alt = 'Captura da interface do RIIMA indisponível.';
   }
 })();
+
+
+(async () => {
+  const img = document.getElementById('saa-targets-figure');
+  if (!img) return;
+  try {
+    const files = Array.from({ length: 4 }, (_, i) =>
+      './assets/saa-targets/chunk-' + String(i).padStart(2, '0') + '.txt'
+    );
+    const parts = await Promise.all(files.map(url => fetch(url).then(r => {
+      if (!r.ok) throw new Error('SAA figure chunk failed: ' + url);
+      return r.text();
+    })));
+    const binary = atob(parts.join(''));
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+    img.src = URL.createObjectURL(new Blob([bytes], { type: 'image/webp' }));
+  } catch (error) {
+    console.error(error);
+    img.alt = 'Figura da Anomalia Magnética do Atlântico Sul indisponível.';
+  }
+})();

@@ -69,46 +69,9 @@
       </div>
 
       <div class="saa-layout">
-        <figure class="saa-map reveal" aria-labelledby="saa-caption">
-          <div class="map-topline"><span>Contexto geomagnético</span><small>esquema geográfico</small></div>
-          <svg viewBox="0 0 900 520" role="img" aria-label="Esquema do Atlântico com alvos vulcânicos no Equador, em Deception Island e em Cabo Verde">
-            <defs>
-              <linearGradient id="saaField" x1="0" x2="1">
-                <stop offset="0" stop-color="#303a31"/>
-                <stop offset=".5" stop-color="#202821"/>
-                <stop offset="1" stop-color="#30372f"/>
-              </linearGradient>
-            </defs>
-            <rect width="900" height="520" fill="url(#saaField)"/>
-            <g class="map-grid">
-              <path d="M0 104H900M0 208H900M0 312H900M0 416H900"/>
-              <path d="M150 0V520M300 0V520M450 0V520M600 0V520M750 0V520"/>
-            </g>
-            <g class="continent">
-              <path d="M230 60 L170 90 135 145 150 205 120 260 150 315 175 365 205 410 230 475 265 445 285 380 320 315 335 255 315 190 285 120 Z"/>
-              <path d="M655 90 L610 125 590 180 610 230 585 285 600 355 640 405 675 360 705 300 735 230 720 165 690 115 Z"/>
-            </g>
-            <g class="field-contours">
-              <ellipse cx="430" cy="320" rx="245" ry="130"/>
-              <ellipse cx="450" cy="325" rx="190" ry="98"/>
-              <ellipse cx="470" cy="330" rx="135" ry="68"/>
-              <ellipse cx="485" cy="334" rx="82" ry="40"/>
-            </g>
-            <g class="target target-ecuador">
-              <circle cx="145" cy="235" r="7"/><circle cx="145" cy="235" r="17" class="pulse"/>
-              <text x="166" y="230">Equador</text><text x="166" y="249" class="sub">arco vulcânico</text>
-            </g>
-            <g class="target target-cabo">
-              <circle cx="575" cy="175" r="7"/><circle cx="575" cy="175" r="17" class="pulse"/>
-              <text x="596" y="170">Cabo Verde</text><text x="596" y="189" class="sub">vulcanismo intraplaca</text>
-            </g>
-            <g class="target target-deception">
-              <circle cx="250" cy="462" r="7"/><circle cx="250" cy="462" r="17" class="pulse"/>
-              <text x="273" y="456">Deception Island</text><text x="273" y="475" class="sub">Antártica</text>
-            </g>
-            <text x="448" y="330" text-anchor="middle" class="saa-label">Atlântico Sul</text>
-          </svg>
-          <figcaption id="saa-caption">Alvos vulcânicos usados para investigar registros de paleointensidade em diferentes contextos geodinâmicos.</figcaption>
+        <figure class="saa-map saa-real-figure reveal" aria-labelledby="saa-caption">
+          <img id="saa-targets-figure" class="saa-targets-image" alt="Mapa da Anomalia Magnética do Atlântico Sul com os alvos no Equador, em Deception Island e em Cabo Verde" loading="lazy" decoding="async">
+          <figcaption id="saa-caption">Anomalia Magnética do Atlântico Sul e localização aproximada dos três alvos vulcânicos: Equador, Deception Island e Cabo Verde.</figcaption>
         </figure>
 
         <div class="research-method reveal">

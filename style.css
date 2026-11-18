@@ -620,3 +620,23 @@ body{background:var(--paper)}
 @media (max-width:900px){
   .career-notes{margin-left:0;grid-template-columns:1fr;gap:28px}
 }
+
+/* SAA — real user-provided figure */
+.saa-real-figure{
+  background:transparent;
+  border:1px solid var(--line);
+}
+.saa-targets-image{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#fff;
+}
+.saa-real-figure figcaption{
+  padding:12px 16px 14px;
+  color:#777f75;
+  background:#f3f1ea;
+  border-top:1px solid var(--line);
+  font-size:10px;
+  line-height:1.5;
+}

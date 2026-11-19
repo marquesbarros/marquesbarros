@@ -4,9 +4,10 @@ Start python -m http.server 8765 --bind 127.0.0.1 in the repository first.
 """
 import base64
 import hashlib
+import re
 import unittest
-from pathlib import Path
 from html.parser import HTMLParser
+from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 from playwright.sync_api import sync_playwright
@@ -89,7 +90,7 @@ class SiteChecks(unittest.TestCase):
                     page = context.new_page()
                     page.set_viewport_size({"width": width, "height": 900})
                     errors = []
-                    page.on("pageerror", lambda error: errors.append(str(error)))
+                    page.on("pageerror", lambda error, errors=errors: errors.append(str(error)))
                     self.assertEqual(page.goto(BASE + path).status, 200)
                     self.assertLessEqual(page.evaluate("document.documentElement.scrollWidth"), width)
                     self.assertEqual(errors, [])
@@ -122,6 +123,42 @@ class SiteChecks(unittest.TestCase):
                 for p in sorted((ROOT / "assets" / name).glob("chunk-*.txt"))))
             self.assertEqual(hashlib.sha256(source).digest(),
                 hashlib.sha256((ROOT / "assets" / (name + ".webp")).read_bytes()).digest())
+
+    def test_downloadable_cvs_match_html(self):
+        from pypdf import PdfReader
+
+        def normalized(text):
+            text = text.translate(str.maketrans({
+                "–": "-", "—": "-", "‑": "-", "−": "-", "↗": "", "↓": "",
+                "\u00ad": "",
+            }))
+            return re.sub(r"\s+", "", text)
+
+        context = self.context()
+        for name in ("curriculo.html", "en/cv.html"):
+            with self.subTest(page=name):
+                page = context.new_page()
+                page.goto(BASE + name)
+                download = page.locator(".cv-download").get_attribute("href")
+                pdf = (ROOT / name).parent / unquote(urlsplit(download).path)
+                reader = PdfReader(pdf)
+                text = normalized("\n".join(p.extract_text() or "" for p in reader.pages))
+                # Cover every CV paragraph and entry title, so the downloadable
+                # version cannot silently drift behind the HTML.
+                for fragment in page.locator(
+                    ".inner-top > p, .cv-section h2, .cv-section h3, "
+                    ".cv-section h4, .cv-section strong, .cv-section p, .cv-tags span"
+                ).all_text_contents():
+                    self.assertIn(normalized(fragment), text, fragment)
+                uris = {
+                    str(action["/URI"])
+                    for pdf_page in reader.pages
+                    for annotation in pdf_page.get("/Annots", [])
+                    if (action := annotation.get_object().get("/A")) and "/URI" in action
+                }
+                self.assertIn("mailto:marquesbarros@usp.br", uris)
+                self.assertIn("https://doi.org/10.1016/j.tecto.2026.231299", uris)
+                page.close()
 
     def test_local_resources_and_language_metadata(self):
         for name in PAGES:

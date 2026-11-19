@@ -2,7 +2,7 @@
 
 **Geologist**
 
-I am a geologist trained at Universidade Federal de Goiás (UFG) and a PhD candidate in Geophysics at Universidade de São Paulo (IAG-USP). My background includes research, fieldwork, laboratories, geotechnics, data engineering, software, teaching and outreach. At USPMAG, my doctoral research investigates magnetic records in geological materials.
+I am a geologist trained at Universidade Federal de Goiás (UFG) and a PhD candidate in Geophysics at Universidade de São Paulo (IAG-USP). My background includes research, fieldwork, laboratories, geotechnics, data engineering, software, teaching and outreach. At the Laboratório de Paleomagnetismo e Magnetismo de Rochas da Universidade de São Paulo (USPMAG), my doctoral research investigates magnetic records in geological materials.
 
 My background also includes **Big Data and data engineering**, with professional experience building cloud-based data pipelines, analytical workflows and computational solutions. I develop tools for scientific research, digital petrography and geoscience education.
 
@@ -37,12 +37,20 @@ The site uses static HTML, CSS and JavaScript. No framework, build step or runti
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8765/`. All images and fonts are local. Original JPEGs, the PDF and historical base64 chunks are preserved; the site loads conventional WebP files instead of reconstructing images in JavaScript. The three scientific/interface WebPs are byte-identical to their chunk sources. Font licenses are in `assets/fonts/`.
+Open `http://127.0.0.1:8765/`. All images and fonts are local. Original JPEGs and historical base64 chunks are preserved; the site loads conventional WebP files instead of reconstructing images in JavaScript. The three historical scientific/interface WebPs are byte-identical to their chunk sources. Font licenses are in `assets/fonts/`.
 
-Browser checks, using Python with Playwright installed separately from the site:
+The downloadable Portuguese and English PDFs are generated from `curriculo.html` and `en/cv.html`, respectively. After editing a CV, regenerate both files:
+
+```sh
+uv run --no-project --with reportlab python scripts/build_cv.py
+```
+
+ReportLab is an authoring dependency, used separately from the static website. Reference CVs supplied by the author stay in their original locations. The previous downloadable PDF remains in Git history.
+
+Browser checks, using Python with Playwright and pypdf installed separately from the site:
 
 ```sh
 python tests/check_site.py
 ```
 
-The checks cover keyboard navigation, mobile menu state, JavaScript-disabled pages, image integrity and layouts from 320 to 1440 px. Figure placeholders mark material still to be added to the selected publications.
+The checks cover keyboard navigation, mobile menu state, JavaScript-disabled pages, image integrity, layouts from 320 to 1440 px, and content/link consistency between the HTML CVs and their downloadable PDFs. Render generated PDFs and inspect every page before publishing a revision.

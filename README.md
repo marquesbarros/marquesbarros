@@ -11,6 +11,7 @@ My background also includes **Big Data and data engineering**, with professional
 | Project | Description | Links |
 |---|---|---|
 | **RIIMA** | Digital petrography and affinity-based image classification with user-controlled group review. | [Repository](https://github.com/marquesbarros/riima) |
+| **LinExtraction** | Candidate topographic lineaments from SRTM hillshades, with per-illumination analysis, vector exports and rose diagrams. | [Repository and notebooks](https://github.com/marquesbarros/linextraction) |
 | **Petrodle** | A learning reinforcement prototype for anyone seeking to practise identifying minerals quickly, connecting chemical properties, photomicrographs and optical descriptions. | [Play](https://marquesbarros.github.io/petrodle/) · [Code](https://github.com/marquesbarros/petrodle) |
 | **Mineralchemy** | A learning reinforcement prototype for anyone seeking to practise identifying minerals quickly, exploring relationships in mineral composition, formation and transformation. | [Play](https://marquesbarros.github.io/mineralchemy/) · [Code](https://github.com/marquesbarros/mineralchemy) |
 

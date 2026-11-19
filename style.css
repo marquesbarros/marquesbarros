@@ -500,7 +500,7 @@ section:focus {
   background: #101411;
   border-color: #55604f;
 }
-/* Software case study and genuine game previews. */
+/* Software case studies and genuine game previews. */
 .projects-section .section-head {
   border-bottom: 1px solid var(--line);
   padding-bottom: 48px;
@@ -512,10 +512,10 @@ section:focus {
   align-items: center;
   padding: 0 0 80px;
 }
-.riima-shot {
+.project-figure {
   border: 1px solid var(--line);
 }
-.riima-shot figcaption {
+.project-figure figcaption {
   padding: 12px 14px;
   border-top: 1px solid var(--line);
 }

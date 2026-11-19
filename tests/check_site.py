@@ -73,6 +73,9 @@ class SiteChecks(unittest.TestCase):
                 self.assertEqual(page.locator("iframe").count(), 0)
                 for anchor in page.locator('a[href*="#"]').all():
                     href = anchor.get_attribute("href")
+                    # This offline check validates fragments in local pages.
+                    if urlsplit(href).scheme or urlsplit(href).netloc:
+                        continue
                     target, fragment = href.split("#", 1)
                     target_page = page if not target else context.new_page()
                     if target:

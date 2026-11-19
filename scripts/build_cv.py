@@ -118,8 +118,8 @@ def build(source, target, language):
     line = colors.HexColor("#d4dbd5")
 
     body = ParagraphStyle(
-        "Body", fontName="Helvetica", fontSize=9.5, leading=12.1,
-        textColor=ink, spaceAfter=4, alignment=TA_LEFT,
+        "Body", fontName="Helvetica", fontSize=9.5, leading=11.8,
+        textColor=ink, spaceAfter=3.5, alignment=TA_LEFT,
         allowWidows=0, allowOrphans=0,
     )
     styles = {

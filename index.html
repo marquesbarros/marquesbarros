@@ -134,12 +134,12 @@
           <span class="mini-label">Atuação no laboratório</span>
           <h3>Petrografia digital no USPMAG.</h3>
           <p>Como bolsista, atuo com a instrumentação de petrografia do Laboratório de Paleomagnetismo e Magnetismo de Rochas da Universidade de São Paulo (USPMAG). Entre minhas atividades estão a configuração das aquisições e a avaliação da qualidade das imagens obtidas pelo AxioScan 7.</p>
-          <p>A curiosidade e a necessidade de fixar relações entre os minerais, sua composição e seus contextos petrográficos me motivaram a desenvolver os protótipos apresentados a seguir.</p>
+          <p>A curiosidade e a necessidade de fixar relações entre os minerais, sua composição e seus contextos petrográficos me motivaram a desenvolver protótipos de reforço em mineralogia. A seguir, apresento esses projetos e ferramentas de apoio à petrografia digital e à análise do relevo.</p>
         </div>
       </div>
 
       <article class="project-feature reveal">
-        <figure class="project-window riima-window riima-shot">
+        <figure class="project-window riima-window project-figure">
           <a class="figure-link" href="./assets/riima-interface.webp" aria-label="Abrir captura real do RIIMA"><img id="riima-screenshot" class="riima-screenshot" src="./assets/riima-interface.webp" width="1000" height="528" alt="Interface real do RIIMA durante a revisão de grupos em uma imagem petrográfica" loading="lazy" decoding="async"></a>
           <figcaption>RIIMA: seleção e revisão de grupos em uma imagem petrográfica. <a href="./assets/riima-interface.webp">Ampliar interface ↗</a></figcaption>
         </figure>
@@ -152,6 +152,23 @@
           <p class="project-stack">Python · OpenCV · classificação por afinidade · petrografia digital</p>
           <p class="project-status">Em desenvolvimento, com interface desktop, núcleo Python e documentação de método, uso e limitações.</p>
           <div class="project-links"><a href="https://github.com/marquesbarros/riima" target="_blank" rel="noopener noreferrer">Código ↗</a><a href="https://github.com/marquesbarros/riima/blob/main/docs/METHOD.md" target="_blank" rel="noopener noreferrer">Método ↗</a><a href="https://github.com/marquesbarros/riima/blob/main/docs/USER_GUIDE.md" target="_blank" rel="noopener noreferrer">Guia de uso ↗</a></div>
+        </div>
+      </article>
+
+      <article id="linextraction" class="project-feature reveal" aria-labelledby="linextraction-title">
+        <figure class="project-window project-figure" aria-labelledby="linextraction-caption">
+          <a class="figure-link" href="./assets/linextraction-canastra-az225-alt35.webp" aria-label="Ampliar a figura do LinExtraction na Serra da Canastra"><img src="./assets/linextraction-canastra-az225-alt35.webp" srcset="./assets/linextraction-canastra-az225-alt35-600.webp 600w, ./assets/linextraction-canastra-az225-alt35.webp 966w" sizes="(max-width: 900px) calc(100vw - 32px), 660px" width="966" height="641" loading="lazy" decoding="async" alt="Relevo sombreado do SRTM na Serra da Canastra com candidatos a lineamentos topográficos traçados em verde."></a>
+          <figcaption id="linextraction-caption">Serra da Canastra (MG): candidatos a lineamentos topográficos em verde sobre relevo sombreado do SRTM, com azimute de iluminação de 225° e elevação de 35°. Os segmentos destacam feições retilíneas do relevo para revisão; sua interpretação estrutural depende de evidências geológicas independentes. <a href="./assets/linextraction-canastra-az225-alt35.webp">Ampliar figura ↗</a></figcaption>
+        </figure>
+        <div class="project-copy">
+          <p class="project-kicker">Cartografia geológica · Python</p>
+          <h3 id="linextraction-title">LinExtraction</h3>
+          <p class="project-subtitle">Lineamentos topográficos a partir do SRTM</p>
+          <p>Notebook Python para extrair candidatos a lineamentos topográficos em relevos sombreados do SRTM. Gera sombreados com diferentes iluminações e detecta segmentos retilíneos para apoiar a análise do relevo.</p>
+          <p>Exporta geometrias em Shapefile, atributos em CSV, mapas e diagramas de roseta. Cada iluminação é analisada de forma independente; uma mesma feição pode aparecer em mais de uma saída.</p>
+          <p class="project-stack">Python · SRTM · processamento de imagens · SIG</p>
+          <p class="project-status">Distribuído como notebook Jupyter, com instruções de execução e licença BSD 3-Clause.</p>
+          <div class="project-links"><a href="https://github.com/marquesbarros/linextraction" target="_blank" rel="noopener noreferrer">Código ↗</a><a href="https://github.com/marquesbarros/linextraction/blob/main/Extracao_de_lineamentos_SRTM.ipynb" target="_blank" rel="noopener noreferrer">Notebook ↗</a><a href="https://github.com/marquesbarros/linextraction#como-executar" target="_blank" rel="noopener noreferrer">Como executar ↗</a></div>
         </div>
       </article>
 
